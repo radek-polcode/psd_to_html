@@ -10,6 +10,10 @@ body {
   font-size: 1.6rem;
 }
 
+body p {
+  line-height: 1.7;
+}
+
 .navbar {
   margin-bottom: 0px !important;
 }
@@ -26,38 +30,92 @@ body {
   text-align: center;
 }
 
-@media only screen and (max-device-width: 640px) {
+.heading h1 {
+  font-weight: bold;
+}
+
+.heading p {
+  margin-top: 20px;
+  margin-bottom: 30px;
+  font-size: 1.7rem;
+  color: #a8adb4;
+}
+
+#new-tech {
+  background-color: #f3f6f8 !important;
+}
+
+#pricing {
+  background-color: #f3f6f8 !important;
+  text-align: center;
+}
+
+#professional-offer {
+  background-color: #4e8ef7;
+}
+
+::-webkit-input-placeholder {
+   text-align: center;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   text-align: center;
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   text-align: center;
+}
+
+:-ms-input-placeholder {
+   text-align: center;
+}
+
+#form-button-green {
+  background-color: #42d79e;
+  border-radius: 30px;
+  color: #e2f8ee;
+  font-weight: bold;
+  height: 45px;
+  width: 140px;
+  margin-left: 15px;
+}
+
+#features h2 {
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+
+#features h4 {
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.feature {
+  margin-bottom: 40px;
+}
+
+@media (min-width: 768px) {
+  .mobile {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
   h1 h2 h3 {
     font-weight: bold;
   }
 
   .heading {
-    height: 700px;
+    height: 850px;
     background-color: #f3f6f8;
   }
 
-  .heading p {
-    font-size: 1.7rem;
-    color: #a8adb4;
-  }
-
-  .form-control {
-    margin-left: 18px;
-    width: 90% !important;
-  }
-
   #form-button-green {
-    background-color: #42d79e;
-    border-radius: 30px;
-    color: #e2f8ee;
-    font-weight: bold;
-    height: 45px;
     margin-top: 15px;
-    width: 90%;
-  }
-
-  .contact-form button[type="submit"] {
-    background-color: green !important;
+    margin-bottom: 30px;
+    width: 100%;
+    margin-left: 0px;
   }
 
   #image {
@@ -79,4 +137,213 @@ body {
   .feature p {
     color: #a8adb4;
   }
+
+  #features {
+    margin-bottom: 30px;
+  }
+
+  #features h4 {
+    margin-bottom: 10px;
+  }
+
+  .laptop-image > img {
+    margin-left: -150px !important;
+  }
+
+  .presentation-image {
+    padding-top: 50px;
+    text-align: center;
+  }
+
+  #new-tech h2 {
+    text-align: center;
+    font-weight: bold;
+  }
+
+  #new-tech p {
+    text-align: center;
+    color: #a8adb4;
+  }
+
+  #presentation {
+    margin-bottom: 100px;
+  }
+
+  #presentation h2 {
+    text-align: center;
+  }
+
+  #presentation p {
+    text-align: center;
+  }
+
+  .read-more, .get-the-app {
+    width: 100%;
+    height: 40px;
+    margin-bottom: 20px;
+    border-radius: 30px;
+  }
+
+  .read-more {
+    border-color: #5f79a4;
+    background-color: transparent;
+  }
+
+  .get-the-app {
+    background-color: #42d79e;
+    border: none;
+    color: #e2f8ee;
+  }
+
+  #pricing h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-weight: bold;
+  }
+
+  #pricing {
+    text-align: center;
+  }
+
+  #pricing .limited-offer {
+    font-size: 1.7rem;
+    text-align: center;
+    color: #818791;
+    margin-bottom: 40px;
+  }
+
+  .offer {
+    margin-bottom: 20px;
+    margin-left: 15px;
+    height: 430px;
+    text-align: center;
+    border-radius: 7px;
+  }
+
+  .offer h5, p {
+    margin-bottom: 40px;
+  }
+
+  .offer h5 {
+    margin-top: 30px;
+    font-weight: bold;
+  }
+
+  .offer .price {
+    font-size: 4rem;
+    font-weight: bold;
+  }
+
+  .offer .space-limit {
+    font-size: 1.8rem;
+    margin-top: 40px;
+    color: #424955;
+  }
+
+  #personal-offer, #corporative-offer {
+    background-color: #FFFFFF;
+  }
+
+  #personal-offer .grey-text {
+    color: #818791;
+  }
+
+  #corporative-offer .grey-text {
+    color: #818791;
+  }
+
+  #professional-offer .blue-text {
+    color: #c4d9fc;
+  }
+
+  #professional-offer .white-text {
+    color: #FFFFFF;
+  }
+
+  #subscription {
+    text-align: center
+  }
+
+  #subscription h2 {
+    font-weight: bold;
+  }
+
+  #subscription p {
+    color: #818791;
+    font-size: 1.8rem;
+  }
+
+  .submit-subscription-button {
+    background-color: #42d79e;
+    border-radius: 30px;
+    color: #e2f8ee;
+    font-weight: bold;
+    height: 45px;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    width: 90%;
+  }
+
+  footer {
+    background-color: #424955;
+    width: 100%;
+    text-align: center;
+    color: #e5e6e8;
+  }
+
+  footer ul {
+    padding-top: 30px;
+    padding-left: 0px;
+    list-style: none;
+  }
+
+  footer ul li {
+    margin-bottom: 20px;
+  }
+
+  footer ul li > a{
+    font-size: 2.0rem;
+    color: #e5e6e8;
+  }
+
+  footer p {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 1200px) {
+    .navbar-header {
+        float: none;
+    }
+    .navbar-left,.navbar-right {
+        float: none !important;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+    .navbar-fixed-top {
+        top: 0;
+        border-width: 0 0 1px;
+    }
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-nav {
+        float: none!important;
+        margin-top: 7.5px;
+    }
+    .navbar-nav>li {
+        float: none;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .collapse.in{
+        display:block !important;
+    }
 }
