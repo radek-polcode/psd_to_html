@@ -91,8 +91,43 @@ body p {
   font-weight: bold;
 }
 
+.feature p {
+  color: #a8adb4;
+}
+
 .feature {
   margin-bottom: 40px;
+}
+
+#new-tech h2 {
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+#new-tech p {
+  color: #a8adb4;
+  width: 80%;
+  font-size: 1.5rem;
+  margin-bottom: 50px;
+}
+
+.read-more, .get-the-app {
+  width: 30%;
+  height: 40px;
+  margin-bottom: 20px;
+  border-radius: 30px;
+}
+
+.read-more {
+  border-color: #5f79a4;
+  background-color: transparent;
+  margin-right: 30px;
+}
+
+.get-the-app {
+  background-color: #42d79e;
+  border: none;
+  color: #e2f8ee;
 }
 
 @media (min-width: 768px) {
@@ -104,6 +139,10 @@ body p {
 @media (max-width: 768px) {
   h1 h2 h3 {
     font-weight: bold;
+  }
+
+  #new-tech h2 {
+    text-align: center;
   }
 
   .heading {
@@ -153,11 +192,6 @@ body p {
   .presentation-image {
     padding-top: 50px;
     text-align: center;
-  }
-
-  #new-tech h2 {
-    text-align: center;
-    font-weight: bold;
   }
 
   #new-tech p {
